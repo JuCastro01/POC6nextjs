@@ -1,0 +1,270 @@
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #f7f7f7; /* Fundo neutro claro */
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+  }
+
+  .leftSection,
+  .rightSection {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .movie-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .movie-info h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #6a1b9a; /* Roxo escuro */
+  }
+
+  .movie-info p {
+    font-size: 1.4rem;
+    color: #3f51b5; /* Azul escuro */
+  }
+
+  .seating {
+    text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .available {
+    background-color: #5e43ad; /* Verde para assento disponível */
+    color: #fff;
+  }
+
+  .selected {
+    background-color: #a19bf4; /* Laranja para assento selecionado */
+  }
+
+  .unavailable {
+    background-color: #9e9e9e; /* Cinza claro para assento indisponível */
+    color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .screen {
+    background-color: #d183ed; /* Azul forte para a tela */
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+    color: #3f51b5; /* Azul escuro para as legendas */
+  }
+  .details{
+    margin-top: 20px;
+  }
+  .details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #6a1b9a; /* Roxo escuro para o título da sinopse */
+  }
+
+  .details p {
+    margin: 5px 0;
+    color: #3f51b5; /* Azul escuro para texto da sinopse */
+  }
+
+  .buy-button {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #1a6626; /* Vermelho alaranjado para o botão de compra */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .buy-button:hover {
+    background-color: #8ef377; 
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #f7f7f7; /* Fundo neutro claro */
+    border-radius: 10px;
+    padding: 20px;
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+  }
+
+  .leftSection,
+  .rightSection {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .movie-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .movie-info h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #6a1b9a; /* Roxo escuro */
+  }
+
+  .movie-info p {
+    font-size: 1.4rem;
+    color: #3f51b5; /* Azul escuro */
+  }
+
+  .seating {
+    text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .available {
+    background-color: #5e43ad; /* Verde para assento disponível */
+    color: #fff;
+  }
+
+  .selected {
+    background-color: #a19bf4; /* Laranja para assento selecionado */
+  }
+
+  .unavailable {
+    background-color: #9e9e9e; /* Cinza claro para assento indisponível */
+    color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .screen {
+    background-color: #d183ed; /* Azul forte para a tela */
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+    color: #3f51b5; /* Azul escuro para as legendas */
+  }
+  .details{
+    margin-top: 20px;
+  }
+  .details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #6a1b9a; /* Roxo escuro para o título da sinopse */
+  }
+
+  .details p {
+    margin: 5px 0;
+    color: #3f51b5; /* Azul escuro para texto da sinopse */
+  }
+
+  .buy-button {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #1a6626; /* Vermelho alaranjado para o botão de compra */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .buy-button:hover {
+    background-color: #8ef377; 
+  }
+}

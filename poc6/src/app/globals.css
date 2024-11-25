@@ -1,0 +1,137 @@
+/* Estilos globais */
+:root {
+  --primary-color: #1e90ff; /* Cor azul */
+  --secondary-color: #ff79c6; /* Cor lilás */
+  --card-background: #ffffff; /* Cor de fundo do card */
+  --background-color: #f9f9f9; /* Cor de fundo geral */
+  --text-color: #333; /* Cor do texto */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #1e90ff; /* Azul */
+    --secondary-color: #ff79c6; /* Lilás */
+    --card-background: #2d2d2d; /* Cor de fundo do card */
+    --background-color: #121212; /* Cor de fundo geral */
+    --text-color: #f1f1f1; /* Cor do texto */
+  }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.5s, color 0.5s ease; /* Transição suave */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Informações do filme */
+.movie-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.movie-info h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.movie-info p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+/* Área de assentos */
+.seating {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.screen {
+  background-color: #ccc;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+ 
+  margin-bottom: 20px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.available {
+  background-color: #333;
+}
+
+.selected {
+  background-color: red;
+}
+
+.unavailable {
+  background-color: #aaa;
+}
+
+/* Legenda */
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Detalhes do filme */
+.details {
+  margin-bottom: 20px;
+}
+
+.details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+/* Botão de compra */
+.buy-button {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: darkred;
+}
