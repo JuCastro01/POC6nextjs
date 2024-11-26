@@ -2,17 +2,17 @@
 :root {
   --primary-color: #1e90ff; /* Cor azul */
   --secondary-color: #ff79c6; /* Cor lilás */
-  --card-background: #ffffff; /* Cor de fundo do card */
-  --background-color: #f9f9f9; /* Cor de fundo geral */
+  --background-color: #ffffff; /* Cor de fundo geral */
   --text-color: #333; /* Cor do texto */
+  --card-background: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #1e90ff; /* Azul */
     --secondary-color: #ff79c6; /* Lilás */
-    --card-background: #2d2d2d; /* Cor de fundo do card */
-    --background-color: #121212; /* Cor de fundo geral */
+    --card-background: #626262; /* Cor de fundo do card */
+    --background-color: #171717; /* Cor de fundo geral */
     --text-color: #f1f1f1; /* Cor do texto */
   }
 }
@@ -31,6 +31,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  color: #8f8f8f; /* Fundo neutro claro */
 }
 
 /* Informações do filme */
