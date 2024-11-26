@@ -4,7 +4,7 @@
     flex-direction: column;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: #f7f7f7; /* Fundo neutro claro */
+    background-color: var(--card-background);
     border-radius: 10px;
     padding: 20px;
     color: var(--text-color);
@@ -78,6 +78,17 @@
     max-width: 600px;
     margin: 10px auto;
     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
     border-radius: 5px;
     color: white;
     font-size: 1.2rem;
@@ -139,13 +150,12 @@
     flex-direction: row;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: #f7f7f7; /* Fundo neutro claro */
+    background-color: var(--card-background); /* Fundo neutro claro */
     border-radius: 10px;
     padding: 20px;
     color: var(--text-color);
     font-family: Arial, sans-serif;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 
   .leftSection,
