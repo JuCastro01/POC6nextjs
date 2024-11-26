@@ -42,7 +42,7 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
+    gap: 0px;
     justify-content: center;
     margin-bottom: 20px;
   }
@@ -75,13 +75,14 @@
   .screen {
     background-color: #d183ed; /* Azul forte para a tela */
     width: 100%;
-    max-width: 600px;
+    max-width: 420px;
     margin: 10px auto;
     padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
-    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
     margin-bottom: 20px;
   }
 
@@ -91,7 +92,7 @@
     border-radius: 5px;
     border-radius: 5px;
     color: white;
-    font-size: 1.2rem;
+    font-size: 12px;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -150,7 +151,7 @@
     flex-direction: row;
     max-width: 1200px;
     margin: 20px auto;
-    background-color: var(--card-background); /* Fundo neutro claro */
+    background-color: var(--card-background);
     border-radius: 10px;
     padding: 20px;
     color: var(--text-color);
