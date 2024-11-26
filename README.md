@@ -3,13 +3,13 @@
 
 ## Definição:
 O projeto é um modelo de site de compra de ingrassos de cinema, onde os lugares e suas disponibilidades são gerenciados por meio de um arquivo .json.
-O site permite a simulação de compra de ingressos vendo a soma do valor a pagar e tambem possui modo light e dark.
+O site permite a simulação de compra de ingressos vendo a soma do valor a pagar ,tambem possui modo light e dark e é compativel com mobile e desktop.
 
 
 ## 🔧 Execução:
 
 Para executar a aplicação é necessário ter instalado um navegador como chrome, firefox ou opera para vizualizar a pagina e ter instalado o next.js e o node.js(v20.18).
-Basta fazer download, entrar no diretorio pocreact e executar o comando a seguir:
+Basta fazer download, entrar no diretorio poc6 e executar o comando a seguir:
 
 ```
 npm run dev
